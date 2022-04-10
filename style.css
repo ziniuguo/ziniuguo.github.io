@@ -1,11 +1,7 @@
 body {  
-    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: azure;
-
 }  
-
 
 .logos {
     height: 45px;
@@ -18,9 +14,7 @@ body {
     width: 100%;
     text-align: center;
     height: 100vh;
-
     background-image:url("IMG_1468.JPG");
-    
     /* Center and scale the image nicely */
     background-position: top;
     background-repeat: no-repeat;
@@ -48,22 +42,62 @@ body {
     padding-top: 15px;
 }
 
-#content {
-    /* position: absolute;
-    left: 200px;
-    top: 100px;
-    right: auto; */
-    clear: both;
+
+#aboutContDiv{
+    background-color: cornsilk;
 }
 
-h3 {
+.block {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#aboutMe {
+    text-align: center;
+}
+
+#photo {
+    height: 375px;
+    width: 375px;
+    border-radius: 50%;
+}
+
+#introDiv{
+    position: relative;
+}
+
+#introDivBlock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#skillsDiv {
+    background-color: cornsilk;
+}
+
+.title {
+    font-size: 50px;
     font-weight: lighter;
+    text-align: center;
 }
 
-a {
-    text-decoration: none;
+#introText {
+    text-align: start;
+    font-weight: lighter;
+    padding-bottom: 20px;
 }
 
-li {
-    color: azure;
+.titleBlock {
+    padding-bottom: 40px;
+}
+
+#skillDesc {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
 }
