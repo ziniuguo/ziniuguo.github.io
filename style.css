@@ -45,6 +45,7 @@ body {
 
 #aboutContDiv {
     background-color: cornsilk;
+    
 }
 
 .block {
@@ -54,16 +55,18 @@ body {
 
 #aboutMe {
     text-align: center;
+    
 }
 
 #photo {
-    height: 375px;
-    width: 375px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
 #introDiv{
     position: relative;
+    height: 375px;
 }
 
 #introDivBlock {
@@ -85,7 +88,7 @@ body {
 }
 
 #introText {
-    text-align: start;
+    text-align: left;
     font-weight: lighter;
     padding-bottom: 20px;
 }
